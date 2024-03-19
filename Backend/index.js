@@ -21,7 +21,7 @@ const port = "https://web-dev-task-client.vercel.app" || 5000;
 
 
 const corsOptions = {
-  origin: "https://web-dev-task-client.vercel.app/",
+  origin: "https://web-dev-task-client.vercel.app",
   methods: "POST,GET,PUT,DELETE,HEAD,PATCH",
   credentials: true,
 };
@@ -30,7 +30,7 @@ app.use(cors(corsOptions));
 
 
 app.use(express.json());
-app.use(router);
+app.use(router());
 app.use("/pay", paymentRoute);
 
 
