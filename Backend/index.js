@@ -30,7 +30,7 @@ app.use(cors(corsOptions));
 
 
 app.use(express.json());
-app.use(router());
+app.use("/",router);
 app.use("/pay", paymentRoute);
 
 
