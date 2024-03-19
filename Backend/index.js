@@ -17,7 +17,7 @@ mongoose.connect(db).then(() => {
     console.log("Failed to connect to the database")
 })
 const cors = require('cors')
-const port = "https://web-dev-task-eight.vercel.app/" || 5000;
+const port = "https://web-dev-task-eight.vercel.app" || 5000;
 
 
 const corsOptions = {
