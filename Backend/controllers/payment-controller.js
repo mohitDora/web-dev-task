@@ -43,7 +43,7 @@ const verification = async (req, res) => {
          
       });
       res.redirect(
-        "/account"
+        "/courses"
       );
     }
   } catch (error) {
