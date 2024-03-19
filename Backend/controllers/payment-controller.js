@@ -43,7 +43,7 @@ const verification = async (req, res) => {
          
       });
       res.redirect(
-        "/courses"
+        "https://web-dev-task-client.vercel.app/courses"
       );
     }
   } catch (error) {
