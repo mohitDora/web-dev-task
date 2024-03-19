@@ -8,7 +8,7 @@ function Courses() {
 
   const [courses,setcourses]=useState([])
 
-  const mostpopURL="https://backend-temp-jcrb.onrender.com/data"
+  const mostpopURL="https://web-dev-task-eight.vercel.app/data"
     const data=async()=>{
         
         let response = await fetch(mostpopURL);

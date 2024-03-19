@@ -16,7 +16,7 @@ export default function SignupUp() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     const { email, pwd, cpwd } = signupData;
-    const res = await fetch("https://backend-temp-jcrb.onrender.com/register", {
+    const res = await fetch("https://web-dev-task-eight.vercel.app/register", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"

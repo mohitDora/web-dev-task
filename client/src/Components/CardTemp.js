@@ -8,8 +8,8 @@ import axios from "axios"
 export default function CardTemp({ name, desc, instructor, duration, level,amount }) {
   const checkoutHandler = async (amount) => {
     try {
-      const {data:{key}}=await axios.get("https://backend-temp-jcrb.onrender.com/pay/key")
-    const {data:{order}}=await axios.post("https://backend-temp-jcrb.onrender.com/pay/checkout",{amount})
+      const {data:{key}}=await axios.get("https://web-dev-task-eight.vercel.app/pay/key")
+    const {data:{order}}=await axios.post("https://web-dev-task-eight.vercel.app/pay/checkout",{amount})
     console.log(window);
   
       const options = {
@@ -20,7 +20,7 @@ export default function CardTemp({ name, desc, instructor, duration, level,amoun
         description: "Razorpay tutorial",
         image: "https://avatars.githubusercontent.com/u/96648429?s=96&v=4",
         order_id: order.id,
-        callback_url: "https://backend-temp-jcrb.onrender.com/pay/verification",
+        callback_url: "https://web-dev-task-eight.vercel.app/pay/verification",
         prefill: {
           name: "Killer",
           email: "alex@gmail.com",

@@ -13,7 +13,7 @@ function App() {
   const navigate=useNavigate();
   const ready=async()=>{
     try {
-      const res=await fetch("https://backend-temp-jcrb.onrender.com/validate",{
+      const res=await fetch("https://web-dev-task-eight.vercel.app/validate",{
         method:"GET",
         headers:{
           Accept:"application/json",

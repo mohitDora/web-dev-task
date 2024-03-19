@@ -9,7 +9,7 @@ export default function CardTemp({ name, desc, instructor, duration,amount, leve
     const handleSubmit = async (id) => {
        console.log(name)
         
-        const res = await fetch(`https://backend-temp-jcrb.onrender.com/data/${id}`, {
+        const res = await fetch(`https://web-dev-task-eight.vercel.app/data/${id}`, {
           method: "DELETE",
           headers: {
             "Content-Type": "application/json"

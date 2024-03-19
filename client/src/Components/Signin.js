@@ -13,7 +13,7 @@ export default function Signin() {
     const handleSubmit = async(e) => {
       e.preventDefault();
     const { email, pwd } = signinData;
-    const res = await fetch("https://backend-temp-jcrb.onrender.com/login", {
+    const res = await fetch("https://web-dev-task-eight.vercel.app/login", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"

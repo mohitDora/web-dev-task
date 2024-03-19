@@ -17,11 +17,11 @@ mongoose.connect(db).then(() => {
     console.log("Failed to connect to the database")
 })
 const cors = require('cors')
-const port = "https://web-dev-project-mohit.netlify.app" || 5000;
+const port = "https://web-dev-task-client.vercel.app" || 5000;
 
 
 const corsOptions = {
-  origin: "https://web-dev-project-mohit.netlify.app",
+  origin: "https://web-dev-task-client.vercel.app/",
   methods: "POST,GET,PUT,DELETE,HEAD,PATCH",
   credentials: true,
 };

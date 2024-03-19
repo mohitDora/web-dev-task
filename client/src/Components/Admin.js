@@ -7,7 +7,7 @@ function Courses() {
 
   const [courses,setcourses]=useState([])
 
-  const mostpopURL="https://backend-temp-jcrb.onrender.com/data"
+  const mostpopURL="https://web-dev-task-eight.vercel.app/data"
     const data=async()=>{
         
         let response = await fetch(mostpopURL);
@@ -47,7 +47,7 @@ useEffect(()=>{
       const handleSubmit = async (e) => {
         e.preventDefault();
         const { name,description,instructor,duration,level,amount } = formData;
-        const res = await fetch("https://backend-temp-jcrb.onrender.com/data", {
+        const res = await fetch("https://web-dev-task-eight.vercel.app/data", {
           method: "POST",
           headers: {
             "Content-Type": "application/json"
