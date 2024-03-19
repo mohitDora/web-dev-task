@@ -37,6 +37,9 @@ app.use("/pay", paymentRoute);
 app.get("/",async(req,res)=>{
   res.send("hello")
 })
+app.get("/dta",async(req,res)=>{
+  res.send("datat")
+})
 app.use(router);
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
