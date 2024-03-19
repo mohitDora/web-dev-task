@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Web Development Bootcamp",
+    "description": "Master the fundamentals of web development and build responsive, interactive websites from scratch. Learn HTML, CSS, JavaScript, and more!",
+    "instructor": "John Doe",
+    "duration": "12 weeks",
+    "level": "Beginner to Intermediate"
+  },
+  {
+    "name": "Data Science Essentials",
+    "description": "Dive into the world of data science and learn how to analyze and visualize data, build predictive models, and extract valuable insights.",
+    "instructor": "Jane Smith",
+    "duration": "10 weeks",
+    "level": "Intermediate"
+  },
+  {
+    "name": "Graphic Design Mastery",
+    "description": "Unlock your creativity and learn the principles of graphic design. Explore tools like Adobe Photoshop and Illustrator to create stunning visuals.",
+    "instructor": "David Johnson",
+    "duration": "8 weeks",
+    "level": "Beginner to Advanced"
+  },
+  {
+    "name": "Mobile App Development",
+    "description": "Learn how to develop mobile applications for iOS and Android platforms using popular frameworks such as React Native and Flutter.",
+    "instructor": "Sarah Brown",
+    "duration": "14 weeks",
+    "level": "Intermediate"
+  },
+  {
+    "name": "Machine Learning Fundamentals",
+    "description": "Gain a comprehensive understanding of machine learning algorithms and techniques. Apply them to real-world datasets for predictive modeling.",
+    "instructor": "Michael Lee",
+    "duration": "10 weeks",
+    "level": "Intermediate to Advanced"
+  },
+  {
+    "name": "Photography Basics",
+    "description": "Discover the fundamentals of photography, including camera settings, composition, and lighting techniques to capture stunning images.",
+    "instructor": "Emily White",
+    "duration": "6 weeks",
+    "level": "Beginner"
+  }
+]
