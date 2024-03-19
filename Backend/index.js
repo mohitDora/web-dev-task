@@ -30,14 +30,14 @@ app.use(cors(corsOptions));
 
 
 app.use(express.json());
-app.use("/",router);
+
 app.use("/pay", paymentRoute);
 
 
 app.get("/",async(req,res)=>{
   res.send("hello")
 })
-
+app.use("/",router);
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 })
