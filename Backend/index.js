@@ -17,7 +17,7 @@ mongoose.connect(db).then(() => {
     console.log("Failed to connect to the database")
 })
 const cors = require('cors')
-const port = "https://web-dev-task-client.vercel.app" || 5000;
+const port = "https://web-dev-task-eight.vercel.app/" || 5000;
 
 
 const corsOptions = {
@@ -37,7 +37,7 @@ app.use("/pay", paymentRoute);
 app.get("/",async(req,res)=>{
   res.send("hello")
 })
-app.use("/",router);
+app.use(router);
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 })
